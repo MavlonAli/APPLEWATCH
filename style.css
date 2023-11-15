@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+    min-width: 1250px;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+}
+.site_button{ 
+    width: 260px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px;
+    background: #EA625C;
+}
+.site_button:hover {
+    color: #EA625C;
+    background: #fff;
+}
+.site_button:active {
+    color: #fff;
+    background: #EA625C;
+    opacity: 0.5;
+}
+header {
+    padding: 30px 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sitenav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.sitenav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sitenav a:hover{
+    color: #EA625C;
+    border-bottom: #333 2px solid;
+}
+.sitenav a:active{
+    color: #333;
+    border-bottom: #EA625C 2px solid;
+    opacity: 0.3;
+}
+.search {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+}
+hr {
+    height: 1px;
+    background: #333;
+    width: 140px;
+}
+.header-input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+/* INTRO SEACTION */
+.intro {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px #ddd solid;
+    background: url("./img/intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left calc(50% + 538px) bottom;
+}
+.intro-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.intro-padding {
+    padding: 91px 245px 185px 125px;
+}
+.intro-info h2 {
+    color: #333;
+    font-weight: 700;
+    font-size: 50px;
+}
+.intro-info p {
+    width: 450px;
+    border-left: 3px solid #888;
+    padding-left: 40px;
+    color: #777;
+    font-size: 16px;
+}
+/* FEATURES SEACTION */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+.features-list {
+    display: flex;
+    gap: 80px;
+}
+.card h3 {
+    color: #222;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.card p {
+    color: #333;
+    margin-bottom: 20px;
+}
+.card a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #EA625C;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+.learn-btn {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #EA625C;
+}
+.card a:hover {
+    color: #333;
+}
+.card a:active {
+    color: #EA625C;
+    opacity: 0.3;
+    
+}
+.square {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #ddd;
+    box-shadow: 18px 0px 0px #ddd, 36px 0px 0px #ddd;
+}
+/* FRAME SEACTION */
+.frame {
+    display: flex;
+    align-items: center;
+    padding: 70px;
+}
+.intro2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+/* FOOTER SEACTION */
+footer{
+    background: url("./img/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 240px 125px 240px 635px;
+}
+.footer-info h2, 
+.footer-info p {
+    color: #fff;
+}
+.footer-info p{
+    border-left: 3px solid #fff;
+}
